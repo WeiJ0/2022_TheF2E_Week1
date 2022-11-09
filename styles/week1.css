@@ -681,6 +681,15 @@ footer {
 }
 
 @media screen and (max-width: 1024px) {
+  .mouse__star{
+    opacity: 0;
+  }
+  .game__dialog{
+    padding: 25px;
+  }
+  .game__dialog p{
+    font-size: 16px;
+  }
   header {
     width: 100vw;
   }
