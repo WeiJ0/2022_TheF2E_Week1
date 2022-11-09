@@ -9,6 +9,7 @@
   "author": "WeiJ",
   "license": "ISC",
   "dependencies": {
+    "dayjs": "^1.11.6",
     "gsap": "^3.11.3",
     "swiper": "^8.4.4"
   }
