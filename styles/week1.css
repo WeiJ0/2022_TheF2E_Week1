@@ -125,6 +125,7 @@ body {
   z-index: 999;
   opacity: 0;
   pointer-events: none;
+  will-change: opacity;
 }
 .game__dialog p{
   font-family: var(--NSanT);
@@ -223,6 +224,7 @@ header {
 }
 .header__mobile__nav {
   display: none;
+  will-change: display;
 }
 .header__mobile__nav a {
   display: block;
@@ -256,6 +258,7 @@ header {
 .paper > * {
   position: fixed;
   overflow: hidden;
+  will-change: transform;
 }
 .paper-top {
   top: -15%;
@@ -317,9 +320,10 @@ header {
   height: 528px;
   width: 1200px;
   background: url(../assets/episode-bg.png);
+  will-change: transform;
 }
 .episode__content__item > * {
-  position: absolute;
+  position: absolute;  
 }
 .episode__content__item__title {
   left: 3.33%;
@@ -507,6 +511,7 @@ header {
 .awards__content img {
   max-width: 100%;
   height: auto;
+  will-change: transform;
 }
 .awards h5 {
   margin-top: 100px;
@@ -549,6 +554,7 @@ header {
 .lives__afterClick {
   opacity: 0;
   pointer-events: none;
+  will-change: opacity;
 }
 .lives__content {
   display: grid;
@@ -564,6 +570,7 @@ header {
 }
 .lives__content__item > * {
   position: absolute;
+  will-change: opacity;
 }
 .lives__content__item .bg {
   position: relative;
@@ -685,7 +692,7 @@ footer {
     opacity: 0;
   }
   .game__dialog{
-    padding: 25px;
+    padding: 10px;
   }
   .game__dialog p{
     font-size: 16px;
